@@ -8,11 +8,7 @@ class Space {
     this.diameter = 76;
     this.radius = this.diameter/2;
   }
-  /*
-  A "render method" is a term I'm using to describe a way to create the visual components
-  associated with each of our JavaScript objects. These methods write the HTML for the
-  visual components and attach the HTML to the DOM.
-  */
+
 /*
 * Draws SVG space
 */
