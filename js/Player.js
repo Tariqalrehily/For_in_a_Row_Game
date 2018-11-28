@@ -1,12 +1,5 @@
 class Player {
-/*
-How will you differentiate between player objects? Will players have a name, or an ID?
-How would an ID be created or set?
-How will a player's tokens be stored? How many tokens should each player have?
- How will you store or set that number?
-How will each player's tokens be differentiated from the other player's, visually?
-What are some ways to keep track of whose turn it is?
-*/
+
 
   constructor (name, id, color, active = false) {
     this.name = name;
@@ -20,10 +13,6 @@ What are some ways to keep track of whose turn it is?
 /**
 * Creates token objects for players
 * @param {integer} num - Number of token objects to be created
-*It should receive an argument called num that represents the number of tokens to be created.
-*It should return an array of newly created token objects.
-*A loop can be used to generate a new Token object on each iteration (up to num iterations).
- Be sure to pass in the appropriate arguments to the Token constructor method.
 * Player class createTokens() method:
 */
 
